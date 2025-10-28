@@ -1,0 +1,10 @@
+# main.tf
+variable "my_number2" {
+  description = "Some number"
+  default     = 438
+  type = number
+}
+
+output "my_number2" {
+  value = var.my_number2
+}
